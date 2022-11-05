@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Nanocode.Middleware</PackageId>
+		<Authors>Burak Öner</Authors>
+		<Version>1.1.0</Version>
+		<FileVersion>1.1.0</FileVersion>
+		<PackageVersion>1.1.0</PackageVersion>
+		<AssemblyVersion>1.1.0</AssemblyVersion>
+		<Description>Nanocode Middleware Tools including JWT, Swagger and more...</Description>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageTags>Nanocode;Middleware;JWT;Authentication;Authorization;Swagger</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<NeutralLanguage>en</NeutralLanguage>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageReleaseNotes>
+			Version 1.1.0 - 05 Nov 2022
+		</PackageReleaseNotes>
+		<PackageIcon>Nanocode.png</PackageIcon>
+		<PackageIconUrl />
+		<PackageProjectUrl>https://github.com/burakoner/Nanocode.Middleware</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/burakoner/Nanocode.Middleware</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="Icon\Nanocode.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+</Project>
